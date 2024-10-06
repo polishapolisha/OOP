@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="OOP.cpp" />
+    <ClCompile Include="funs.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Memberp.cpp" />
+    <ClCompile Include="Netws.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="funs.h" />
+    <ClInclude Include="Memberp.h" />
+    <ClInclude Include="Netws.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
